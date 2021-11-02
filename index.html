@@ -24,7 +24,7 @@
             <ul>
                 {% for highlight in site.highlights %}
                 {% if highlight.type == "book" %}
-                <li><p><a href="{{ highlight.url }}">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
+                <li><p><a href="{{ highlight.url }}.html">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
                 {% endif %}
                 {% endfor %}
             </ul>

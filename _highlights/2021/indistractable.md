@@ -2,7 +2,7 @@
 type: book
 title: Indistractable
 author: Nir Eyal
-year: 2020
+year: 2021
 ---
 
 Most people don’t want to acknowledge the uncomfortable truth that distraction is always an unhealthy escape from reality. How we deal with uncomfortable internal triggers determines whether we pursue healthful acts of traction or self-defeating distractions.

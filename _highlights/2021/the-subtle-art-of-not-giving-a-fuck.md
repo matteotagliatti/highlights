@@ -2,7 +2,7 @@
 type: book
 title: The Subtle Art of Not Giving a F*ck
 author: Mark Manson
-year: 2021
+year: 10 2021
 ---
 
 The key to a good life is not giving a fuck about more; it’s giving a fuck about less, giving a fuck about only what is true and immediate and important.

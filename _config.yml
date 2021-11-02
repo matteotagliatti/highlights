@@ -7,7 +7,7 @@ collections:
   highlights:
     output: true
     permalink: /:name
-    sort_by: date
+    sort_by: year
 
 defaults:
   - scope:
