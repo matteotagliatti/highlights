@@ -6,7 +6,15 @@ website: https://matteotagliatti.it
 collections:
   highlights:
     output: true
+    permalink: /:name
     sort_by: date
+
+defaults:
+  - scope:
+      path: ""
+      type: "highlights"
+    values:
+      layout: "highlight"
 
 # Exclude these files from production site
 exclude:

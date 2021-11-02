@@ -38,14 +38,15 @@ body {
     padding: 2rem;
 }
 
-h1 {font-size: 2rem; font-weight: 700; margin-bottom: 0;}
-h2 {font-size: 1.6rem; font-weight: 700; margin-bottom: 1rem;}
+h1 {font-size: 2rem; margin-bottom: 0;}
+h2 {font-size: 1.8rem; margin-bottom: 1rem;}
+h3 {font-size: 1.6rem;}
+h4 {font-size: 1.4rem;}
 a {color:var(--link-color); text-decoration: none;}
 a:hover {text-decoration: underline;}
 
-header, footer, main div {
-    margin-top: 5rem;
-}
+header {margin-top: 1rem;}
+footer, main div {margin-top: 5rem;}
 
 /* Header */
 
@@ -146,10 +147,21 @@ header, footer, main div {
     transform: rotate(45deg)
    } 
 
-/* Highlights */
+/* Highlights Index*/
 
 main li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+/* Highlights Content*/
+
+.author {
+    color: var(--link-color);
+}
+
+.content p {
+    margin: 1rem 0;
+    font-style: italic;
 }

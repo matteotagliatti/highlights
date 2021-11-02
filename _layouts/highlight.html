@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    {% include head.html %}
+</head>
+<body>
+    <header>
+        <div class="title">
+            <a href="/index.html">« back</a>
+            {% include change-theme-button.html %}
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <small>{{ page.year }}</small>
+            <h1>{{ page.title }}</h1>
+            <p class="author">{{ page.author }}</p>
+        </div>
+        <div class="content">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer>
+        <p>Made by <a href="{{ site.website }}" target="_blank">Matteo Tagliatti</a>. Code <a href="{{ site.github }}" target="_blank">here</a>.</p>
+    </footer>
+
+    {% include scripts.html %}
+</body>
+</html>

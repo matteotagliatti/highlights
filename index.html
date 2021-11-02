@@ -10,7 +10,7 @@
     <header>
         <div class="title">
             <h1>{{ site.title }}</h1>
-            <button title="change theme" id="themeToggle"><i id="buttonIcon" class="gg-sun"></i></button>
+            {% include change-theme-button.html %}
         </div>
         <div class="bio">
             <p>{{ site.description }}</p>
@@ -24,7 +24,7 @@
             <ul>
                 {% for highlight in site.highlights %}
                 {% if highlight.type == "book" %}
-                <li><p><a href="#">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
+                <li><p><a href="{{ highlight.url }}">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
                 {% endif %}
                 {% endfor %}
             </ul>
@@ -35,7 +35,7 @@
             <ul>
                 {% for highlight in site.highlights %}
                 {% if highlight.type == "article" %}
-                <li><p><a href="#">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
+                <li><p><a href="{{ highlight.url }}">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
                 {% endif %}
                 {% endfor %}
             </ul>
