@@ -1,0 +1,51 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    {% include head.html %}
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>{{ site.title }}</h1>
+            <button title="change theme" id="themeToggle"><i id="buttonIcon" class="gg-sun"></i></button>
+        </div>
+        <div class="bio">
+            <p>{{ site.description }}</p>
+            <a href="{{ site.website }}" target="_blank">> About me</a>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <h2>Books 📚</h2>
+            <ul>
+                {% for highlight in site.highlights %}
+                {% if highlight.type == "book" %}
+                <li><p><a href="#">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <div>
+            <h2>Articles 📰</h2>
+            <ul>
+                {% for highlight in site.highlights %}
+                {% if highlight.type == "article" %}
+                <li><p><a href="#">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made by <a href="{{ site.website }}" target="_blank">Matteo Tagliatti</a>. Code <a href="{{ site.github }}" target="_blank">here</a>.</p>
+    </footer>
+
+    {% include scripts.html %}
+</body>
+</html>

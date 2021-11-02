@@ -1,0 +1,15 @@
+title: Highlights ✏️📚
+description: A minisite for book and article highlights.
+github: https://github.com/matteotagliatti/highlights
+website: https://matteotagliatti.it
+
+collections:
+  highlights:
+    output: true
+    sort_by: date
+
+# Exclude these files from production site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
