@@ -6,7 +6,7 @@ website: https://matteotagliatti.it
 collections:
   highlights:
     output: true
-    permalink: /:name
+    permalink: /highlights/:name.html
     sort_by: year
 
 defaults:

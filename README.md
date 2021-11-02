@@ -6,3 +6,4 @@ A minisite for book and article highlights. Made with jekyll. Inspired by [Melan
 
 - [ ] Collection Sort By
 - [ ] README img
+- [ ] Automatic Set Theme
