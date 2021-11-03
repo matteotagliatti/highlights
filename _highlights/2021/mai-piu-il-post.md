@@ -3,6 +3,7 @@ type: article
 title: Mai più
 author: Il Post
 year: 2021
+source: https://www.ilpost.it/2021/03/09/baricco-mai-piu/
 ---
 
 L’unica oscillazione che si è concesso il sistema-scuola è la DAD. Ma è istruttivo notare come non si sia immaginato nient’altro che versare meccanicamente le stesse cose che si facevano in aula dentro il contenitore dei device digitali. Non un orario cambiato, non un programma cambiato, solo la cieca ostinazione nel cercare gli stessi risultati con una tecnica completamente inadatta a ottenerli.

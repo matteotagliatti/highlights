@@ -3,6 +3,7 @@ type: article
 title: Cancel Columbus Day
 author: Syfy
 year: 2021
+source: https://www.syfy.com/syfy-wire/cancel-columbus-day-sun-storms-pinpoint-europeans-being-in-canada-in-1021-ad
 ---
 
 New research pinpoints an exact date Vikings from Europe were in North America: 1021 A.D. (one millennium ago this year), 430 years before Christopher Columbus was even born. How was this determination possible? Because the Sun erupted in an immense series of storms that altered Earth’s atmosphere, leaving measurable changes in tree rings at the time.

@@ -3,6 +3,7 @@ type: article
 title: How Snobbery Helped Take The Spice Out Of European Cooking
 author: NPR
 year: 2021
+source: https://www.npr.org/sections/thesalt/2015/03/26/394339284/how-snobbery-helped-take-the-spice-out-of-european-cooking
 ---
 
 The North Indian cuisine I grew up eating is about melding together distinct, disparate flavors and building up layer upon layer of spice and seasoning. Much of European cuisine, by contrast, is about combining complementary flavors — think potatoes with leeks, or scallops with white wine.

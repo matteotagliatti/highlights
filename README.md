@@ -4,8 +4,4 @@ A minisite for book and article highlights. Made with jekyll. Inspired by [Melan
 
 ## TODO
 
-- [ ] Collection Sort By
 - [ ] README img
-- [ ] URL Articles (in page)
-- [ ] [Keep data-theme state between pages](https://www.section.io/engineering-education/adding-dark-theme-to-your-site/)
-- [ ] Automatic Set Theme
