@@ -1,7 +1,7 @@
 ---
 type: book
 title: Stringere la mano a Dio
-author: Kurt Vonnegut, Lee Stringer7
+author: Kurt Vonnegut, Lee Stringer
 year: 2021
 ---
 
