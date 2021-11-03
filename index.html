@@ -24,7 +24,7 @@
             <ul>
                 {% for highlight in site.highlights %}
                 {% if highlight.type == "book" %}
-                <li><p><a href="{{ site.baseurl }}{{ highlight.url }}">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
+                <li><p><a href="{{ highlight.url | relative_url }}">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
                 {% endif %}
                 {% endfor %}
             </ul>
@@ -35,16 +35,14 @@
             <ul>
                 {% for highlight in site.highlights %}
                 {% if highlight.type == "article" %}
-                <li><p><a href="{{ site.baseurl }}{{ highlight.url }}">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
+                <li><p><a href="{{ highlight.url | relative_url }}">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
                 {% endif %}
                 {% endfor %}
             </ul>
         </div>
     </main>
 
-    <footer>
-        <p>Made by <a href="{{ site.website }}" target="_blank">Matteo Tagliatti</a>. Code <a href="{{ site.github }}" target="_blank">here</a>.</p>
-    </footer>
+    {% include footer.html %}
 
     {% include scripts.html %}
 </body>
