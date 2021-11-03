@@ -8,10 +8,12 @@ function changeTheme() {
 
     if (theme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'light');
+        window.localStorage.setItem("data-theme", "light")
         buttonIcon.classList.remove('gg-sun'); // remove moon icon
         buttonIcon.classList.add('gg-moon'); // add sun icon
     } else {
         document.documentElement.setAttribute('data-theme', 'dark');
+        window.localStorage.setItem("data-theme", "dark")
         buttonIcon.classList.remove('gg-moon'); // remove sun icon
         buttonIcon.classList.add('gg-sun'); // ad moon icon
     }
