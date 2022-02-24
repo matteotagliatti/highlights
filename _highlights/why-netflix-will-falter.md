@@ -2,7 +2,7 @@
 type: article
 title: Why Netflix Will Falter
 author: Ted Gioia
-year: 2022
+year: 2022-01
 source: https://tedgioia.substack.com/p/why-netflix-will-falter
 ---
 

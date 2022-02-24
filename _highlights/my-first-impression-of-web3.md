@@ -2,11 +2,11 @@
 type: article
 title: My first impressions of web3
 author: Moxie Marlinspike
-year: 2022
+year: 2022-01
 source: https://moxie.org/2022/01/07/web3-first-impressions.html
 ---
 
-People don’t want to run their own servers, and never will. The premise for web1 was that everyone on the internet would be both a publisher and consumer of content as well as a publisher and consumer of infrastructure. 
+People don’t want to run their own servers, and never will. The premise for web1 was that everyone on the internet would be both a publisher and consumer of content as well as a publisher and consumer of infrastructure.
 
 A protocol moves much more slowly than a platform. After 30+ years, email is still unencrypted; meanwhile WhatsApp went from unencrypted to full e2ee in a year. People are still trying to standardize sharing a video reliably over IRC; meanwhile, Slack lets you create custom reaction emoji based on your face.
 

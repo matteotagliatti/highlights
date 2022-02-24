@@ -2,7 +2,7 @@
 type: book
 title: Project Nutrition
 author: Andrea Biasci
-year: 2022
+year: 2022-01
 ---
 
 Cosa ci perdiamo se limitiamo eccessivamente i carboidrati? Si abbassa il metabolismo. Si limita la crescita muscolare. Diete low carb abbassano i valori delle scorte muscolari.

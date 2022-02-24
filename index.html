@@ -22,7 +22,8 @@
         <div>
             <h2>Books &#128218</h2>
             <ul>
-                {% for highlight in site.highlights %}
+                {% assign sorted = site.highlights | sort: 'year' | reverse  %}
+                {% for highlight in sorted %}
                 {% if highlight.type == "book" %}
                 <li><p><a href="{{ highlight.url | relative_url }}">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
                 {% endif %}
@@ -33,7 +34,8 @@
         <div>
             <h2>Articles &#128240</h2>
             <ul>
-                {% for highlight in site.highlights %}
+                {% assign sorted = site.highlights | sort: 'year' | reverse  %}
+                {% for highlight in sorted %}
                 {% if highlight.type == "article" %}
                 <li><p><a href="{{ highlight.url | relative_url }}">{{ highlight.title }}</a> - {{ highlight.author }}</p><time datetime="{{ highlight.year}}">{{ highlight.year }}</time></li>
                 {% endif %}
