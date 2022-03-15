@@ -2,7 +2,7 @@
 type: article
 title: Notes apps are where ideas go to die. And that’s good.
 author: Matthew Guay
-year: 2022-01
+year: 2022-02
 source: https://reproof.app/blog/notes-apps-help-us-forget
 ---
 
